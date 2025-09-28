@@ -1,0 +1,516 @@
+
+
+.nav{
+    width:1450px;
+    height:50px;
+    /* border:1px solid black; */
+    display:flex;
+    justify-content: space-between;
+}
+hr{
+    width:30px;
+    height:0px;
+    
+}
+.left{
+    width:800px;
+    height:50px;
+    /* border:1px solid black; */
+    display:flex;
+    /* justify-content: space-between; */
+    margin-left: 30px;
+    align-items: center;
+    gap:2%;
+}
+.right{
+    display:flex;
+    flex-direction: row;
+    gap:10%;
+    color:blue;
+    float:right;
+    /* border: 1px solid bisque; */
+    width:300px;
+    align-items: center;
+
+}
+
+.img{
+    width:50px;
+    height:50px;
+    background-image: url("https://en.wikipedia.org/static/images/icons/wikipedia.png");
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+.img2{
+    width:130px;
+    height:40px;
+    background-image:url("https://en.wikipedia.org/static/images/mobile/copyright/wikipedia-wordmark-en.svg");
+    background-repeat: no-repeat;
+
+}
+.img2 p{
+    margin-top:22px;
+    color:grey;
+    font-size:12px;
+    
+
+}
+.Search{
+    display: flex;
+    border:1px solid black;
+    width:400px;
+    height:30px;
+    align-items: center;
+}
+.button{
+   padding-top:6px;
+   padding-bottom:6.5px;
+   padding-inline:15px;
+   margin-left:-20px;
+}
+
+
+.searchplace input{
+    border: none;
+}
+    
+
+.parent{
+    height:800px;
+    /* width:100%; */
+    display:grid;
+    grid-template-columns:repeat(10,1fr);
+    grid-template-rows: repeat(10,1fr);
+    gap:30px;
+}
+.sidebar{
+    /* border:1px solid black; */
+    grid-column:1/2;
+    grid-row:1/10;
+    display:flex;
+    gap:10px;
+    flex-direction:column;
+    margin-left: 50px;
+    margin-top: 83px;
+}
+.nav2left{
+    color:blue;
+}
+a{
+    text-decoration: none;
+    font-size: larger;
+}
+a:hover{
+    text-decoration: underline;
+    color:rgb(0, 0, 0);
+    cursor:pointer;
+}
+.content{
+    /* border:1px solid black; */
+    grid-row:1/10;
+    grid-column:2/9;
+    margin-top: 50px;
+    height:100%;
+    overflow-y: auto;
+}
+.appearance{
+    /* border:1px solid black; */
+    grid-column:9/11;
+    grid-row:1/10;
+    display:flex;
+    flex-direction:column;
+    font-size:18px;
+    margin-top:100px;
+}
+.text8{
+    font-size: larger;
+    font-weight: bold;
+    border-bottom:0.5px solid rgb(109, 107, 107);
+    height:40px;
+    font-size:20px;
+}
+.text5{
+    color:grey;
+    border-bottom:0.5px solid rgb(120, 120, 120);
+}
+h2{
+    border-bottom: 1px solid rgb(207, 207, 207);
+}
+.img3{
+    height:25px;
+    width:25px;
+    margin-right:-400px;
+    color:blue;
+}
+.nav1{
+    display:flex;
+    height:40px;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(205, 203, 203);
+
+}
+.language{
+     display: flex;
+     width:135px;
+     height:30px;
+     font-weight: bold;
+     border:none;
+     color:blue;
+    
+
+}
+H4{
+    font-family:'Linux Libertine', 'Georgia', 'Times', 'Source Serif 4', serif;
+    font-weight: lighter;
+    font-size: 35px;
+    margin-top: -5px;
+}
+.nav2{
+     display:flex;
+    height:40px;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(205, 203, 203);
+}
+.nav2left{
+    display:flex;
+    gap:30px;
+    align-items: center;
+   
+}
+.nav2right{
+    display:flex;
+    gap:10px;
+    align-items: center;
+
+}
+.Tools{
+    width:80px;
+    border:none;
+}
+/* .img4{
+    width:275px;
+    height:500px;
+    border:1px solid black;
+    background-image: url("https://vetic.in/blog/wp-content/uploads/2024/12/1.-Labrador-Retriever.jpg");
+    background-size: contain;
+    float:right;
+    margin-top:80px;
+} */
+.img4{
+    width:300px;
+    height:600px;
+    border:1px solid black;
+    float:right;
+    margin-top: 50px;
+    background-color:#f8f9fa;
+}
+h5{
+    float:inline-end;
+    margin-top: -625px;
+    font-size:16px;
+    font-weight: lighter;
+    font-style: italic;
+}
+.content p{
+    font-family:sans-serif;
+    font-weight:302;
+    font-size:16px;
+   
+}
+H1{
+    
+    /* border-bottom: 1px solid grey; */
+    width:600px;
+    height:60px;
+}
+.head{
+    width:280px;
+    height:50px;
+    background-color: rgb(246, 226, 161);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size:25px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.puppy1{
+    background-image: url("dog1.jpg");
+    height:163px;
+    width:250px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-left: 25px;
+    margin-top: 5px;
+}
+.text{
+    display:flex;
+    /* border:1px solid black; */
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.about1{
+    font-weight: bold;
+}
+.traits{
+    display:flex;
+    flex-direction: row;
+    font-size:15px;
+    
+}
+.traits1{
+    width:280px;
+    height:30px;
+    background-color: rgb(246, 226, 161);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size:25px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.heightweight{
+    font-weight: bold;
+}
+.cm{
+    display:flex;
+    flex-direction:column;
+
+}
+.domestic{
+    width:280px;
+    height:40px;
+    background-color: rgb(246, 226, 161);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size:20px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    color:blue;
+}
+.header{
+    font-weight: bold;
+    font-size:30px;
+    border-bottom:1px solid grey;
+    height:50px;
+    width:1000px;
+
+}
+.img6{
+    background-image: url("dog2.jpg");
+    height:300px;
+    width:302px;
+    margin-top:40px;
+    background-repeat: no-repeat;
+    background-size:cover;
+    float:right;
+}
+.img7{
+    background-image: url("dog3.jpg");
+    height:250px;
+    width:350px;
+    margin-top:40px;
+    background-repeat: no-repeat;
+    background-size:cover;
+    float:right;
+    border:1px solid black; 
+
+}
+.img8{
+    background-image: url("dog4.jpg");
+    height:300px;
+    width:352px;
+    margin-top:40px;
+    background-repeat: no-repeat;
+    background-size:cover;
+    float:right;
+     border:1px solid black;
+    
+
+
+}
+.img9{
+    background-image: url("dog5.jpg");
+    height:300px;
+    width:352px;
+    margin-top:40px;
+    background-repeat: no-repeat;
+    background-size:cover;
+    float:right;
+     border:1px solid black; 
+
+}
+.contentimg{
+    display:flex;
+    flex-direction: column;
+    float:right;
+}
+ul{
+    font-size: 17px;
+     line-height:30px;
+   
+
+}
+.history p{
+    font-size: 17px;
+     line-height:30px;
+   
+}
+.characteristics p{
+     font-size: 17px;
+     line-height:30px;
+   
+}
+.top p{
+    font-size: 17px;
+     line-height:30px;
+   
+}
+.img10{
+    background-image: url("dog\ color1.jpg");
+    height:260px;
+    width:390px;
+}
+.img11{
+    background-image: url("dog\ color2.jpg");
+    background-size: cover;
+    height:260px;
+    width:390px;
+}
+.img12{
+    background-image: url("doggy\ angle.png");
+    background-size: contain;
+    height:260px;
+    width:390px;
+}
+.colourimg{
+    display: flex;
+    float:right;
+    gap:10px;
+    flex-direction: column;
+}
+.colour p{
+    font-size: 17px;
+     line-height:30px;
+}
+.health p{
+    font-size: 17px;
+     line-height:30px;
+}
+.healthimg{
+    display: flex;
+    float:right;
+    gap:50px;
+    flex-direction: column;
+
+}
+.donate:hover{
+    text-decoration: underline;
+    color:rgb(0, 0, 0);
+    cursor:pointer;
+
+}
+.button:hover{
+    color: grey;
+    cursor:pointer;
+}
+.account:hover{
+    text-decoration: underline;
+    color:rgb(0, 0, 0);
+    cursor:pointer;
+}
+.login:hover{
+    text-decoration: underline;
+    color:rgb(0, 0, 0);
+    cursor:pointer;
+}
+.article:hover{
+    text-decoration: underline;
+    color:rgb(0, 0, 255);
+    cursor:pointer;
+}
+.talk:hover{
+    text-decoration: underline;
+    color:rgb(0, 0, 255);
+    cursor:pointer;
+}
+.read:hover{
+    text-decoration: underline;
+    color:rgb(0, 0, 255);
+    cursor:pointer;
+}
+.edit:hover{
+    text-decoration: underline;
+    color:rgb(0, 0, 255);
+    cursor:pointer;
+}
+.histoory:hover{
+    text-decoration: underline;
+    color:rgb(0, 0, 255);
+    cursor:pointer;
+}
+.img13{
+    background-image: url("dog6.png");
+    background-size:contain;
+    background-repeat: no-repeat;
+    border:1px solid black;
+    height:300px;
+    width:300px;
+    margin-top: 30px;
+    margin-left:50px;
+}
+.img14{
+    background-image: url("dog7.png");
+    background-size:contain;
+    background-repeat: no-repeat;
+    border:1px solid black;
+    height:360px;
+    width:390px;
+   }
+.img13 p{
+    margin-top:230px;
+    line-height:20px;
+}
+.img14 p{
+    margin-top:270px;
+    line-height:20px;
+}
+.img15{
+    background-image: url("dog8.jpg");
+    height:450px;
+    width:260px;
+    background-size:contain;
+     background-repeat: no-repeat;
+     float:right;
+     border:1px solid black;
+}
+.use p{
+    font-size: 17px;
+    line-height:30px;
+}
+.img15 p{
+    margin-top:390px;
+    line-height:20px;
+
+}
+.war p{
+   font-size: 17px;
+     line-height:30px;
+    
+}
+.democracy p{
+    font-size: 17px;
+     line-height:30px;
+}
+
+span{
+    color: blue;
+}
